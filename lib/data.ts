@@ -4,7 +4,7 @@ import { CgWorkAlt } from "react-icons/cg";
 import { LuGraduationCap } from "react-icons/lu";
 import corpcommentImg from "@/public/corpcomment.png";
 import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import hotelbooking from "@/public/hotelbooking.png"
 
 export const links = [
   {
@@ -40,12 +40,20 @@ export const experiencesData = [
     date: "2021",
   },
   {
-    title: "Front-End Developer",
+    title: "System Engineer",
     location: "Noida",
     description:
       "I worked as a front-end developer for 2 years in Infosys. Where i upskilled myself as a ReactJS developer.",
     icon: React.createElement(CgWorkAlt),
-    date: "2021-Present",
+    date: "2021-23",
+  },
+  {
+    title: "Senior System Engineer",
+    location: "Noida",
+    description:
+      "As a senior system engineer my role was to guide my junior about the Technology we use like Typescript,ReactJS and give konwledge transfer. Also, take responsibilty of the whole project which is built by us, little changes were still made and taken care of every design impacts and user interface comforts.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023-Present",
   },
 ] as const;
 
@@ -54,7 +62,7 @@ export const projectsData = [
     title: "Australian Open 2024 Project",
     description:
       "I worked as a frontend developer on this project for 2 years where  we created a website for coaches and players to analyse their gameplay and update.",
-    tags: ["React", "MongoDB", "Tailwind"],
+    tags: ["ReactJS", "Tailwind","JavaScript","HTML & CSS","MongoDB","Github"],
     imageUrl: corpcommentImg,
   },
   {
@@ -65,11 +73,11 @@ export const projectsData = [
     imageUrl: rmtdevImg,
   },
   {
-    title: "Word Analytics",
+    title: "Hotel Management System",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "A complete hotel booking system, where user can signup, login and choose hotels from multiple available options. And make a booking for any advance date by picking a from date to to date and make the payments.",
+    tags: ["React", "Next.js", "JavaScript", "Tailwind"],
+    imageUrl: hotelbooking,
   },
 ] as const;
 
@@ -80,11 +88,15 @@ export const skillsData = [
   "TypeScript",
   "React",
   "Next.js",
+  "AWS",
+  "AWS Lambda",
+  "AWS Amplify",
+  "AWS ECS/EKS services",
+  "API Gateway",
   "Node.js",
   "Git",
   "Tailwind",
   "MongoDB",
   "Redux",
   "Express",
-  "Framer Motion",
 ] as const;
